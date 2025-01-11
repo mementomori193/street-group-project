@@ -10,3 +10,6 @@ php artisan homeowners:import
 this will print out the array of homeowners extracted from the provided
 csv which should have been included in the git project, but if not, 
 should go into `storage/app/private/homeowners.csv`
+
+
+The file for this command can be found at `app/Console/HomeownerCSVInterpreter.php`
